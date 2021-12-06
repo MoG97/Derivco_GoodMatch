@@ -82,6 +82,8 @@ namespace goodMatch
                 tw.WriteLine(tennis.getSentence());
             }
             tw.Close();
+
+            //Information
             Console.WriteLine("\nResults printed in output.txt!\nLogs saved in logs.txt!");
         }
     }
