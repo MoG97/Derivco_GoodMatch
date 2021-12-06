@@ -6,8 +6,9 @@ using System.Text.RegularExpressions;
 
 namespace goodMatch
 {
-    class Matcher
+    public class Matcher
     {
+        //Calculate sequence based on sentence
         public static string calcSequence(string sentence)
         {
             string sequence = "";
@@ -15,7 +16,7 @@ namespace goodMatch
             while(sentence.Length > 0)
             {
                 int occur = 0;
-                for (int i = 0; i < sentence.Length; i++)
+                for (int i = 0; i < sentence.Length; i++) //Iterate through sentence checking each letter for number of occurences
                 {
                     if (Char.IsWhiteSpace(sentence[0]))
                     {
@@ -30,13 +31,14 @@ namespace goodMatch
 
                 if(occur != 0)
                 {
-                    sequence += occur;
+                    sequence += occur; //add occurences of letter to end of sequence
                     sentence = sentence.Replace(sentence[0].ToString(), string.Empty);
                 }
             }
             return sequence;
         }
 
+        //Add first and last digit of sequence and put its sum at end of result creating new reduced sequence
         public static string sumSequence(string sequence)
         {
             string sum = "";
@@ -59,20 +61,20 @@ namespace goodMatch
             return sum;
         }
 
+        //Repeat process until sequence reduced to last 2 digits 
         public static string findPercentage(string sequence)
         {
             string percent = sumSequence(sequence);
 
             while (percent.Length > 2)
             {
-                //Console.WriteLine(percent);
-                //Console.WriteLine(percent.Length);
                 percent = sumSequence(percent);
             }
 
             return percent;
         }
 
+        //Indicate if match is good
         public static string appendSentence(string sentence, string percent)
         {
             if(int.Parse(percent) > 80)
@@ -87,6 +89,7 @@ namespace goodMatch
             return sentence;
         }
 
+        //Check player name only contains alphabetic characters
         public static bool validateInput(string name)
         {
             foreach(char z in name)
@@ -100,6 +103,7 @@ namespace goodMatch
             return true;
         }
 
+        //Get and validate input from user
         public static string getInput(string name)
         {
             while (!validateInput(name))
@@ -111,9 +115,13 @@ namespace goodMatch
             return name;
         }
 
+        //Get input from CSV file
         public static List<string> readFromCSV(string filepath, string category)
         {
+            //List to contain names read from CSV file
             List<string> list = new List<string>();
+
+            //Regular expression to validate correct input
             Regex alphabetic = new Regex("^[A-Z]+$");
             Regex catCheck = new Regex("^[MF]$");
 
@@ -121,7 +129,8 @@ namespace goodMatch
             {
                 if(!filepath.ToLower().EndsWith(".csv"))
                 {
-                    Logger.Log("Invalid File Type: CSV file required");
+                    Console.WriteLine("INVALID FILE TYPE");
+                    Logger.Log("Invalid File Type: CSV file required"); //Logging file type error
                 }
                 else
                 {
@@ -130,48 +139,50 @@ namespace goodMatch
                     {
                         string[] data = line.Split(',');
 
-                        if (data.Length == 2)
+                        if (data.Length == 2) //Check correctness of format
                         {
                             data[0] = data[0].Trim().ToUpper();
                             data[1] = data[1].Trim().ToUpper();
 
-                            if (alphabetic.IsMatch(data[0]))
+                            if (alphabetic.IsMatch(data[0])) //Check name validity
                             {
                                 if (catCheck.IsMatch(data[1]))
                                 {
-                                    if(data[1].Equals(category.ToUpper()))
+                                    if(data[1].Equals(category.ToUpper())) //Check gender validity
                                     {
-                                        if (!list.Contains(data[0]))
+                                        if (!list.Contains(data[0])) //Handle duplicates
                                         {
-                                            list.Add(data[0]);
+                                            list.Add(data[0]); //Add name to list
                                         }
                                     }
                                 }
                                 else
                                 {
-                                    Logger.Log("Invalid Gender Category: Should be either m or f" + line);
+                                    Logger.Log("Invalid Gender Category: " + line + " | Valid Genders => m/f");
                                 }
                             }
                             else
                             {
-                                Logger.Log("Invalid Name: Only Alphabetic Characters Allowed" + line);
+                                Logger.Log("Invalid Name: " + line + " | Only Alphabetic Characters Allowed");
                             }
                         }
                         else
                         {
-                            Logger.Log("Invalid Input: Correct Format => [name], [m/f]" + line);
+                            Logger.Log("Invalid Input: " + line + " | Correct Format => [name], [m/f]");
                         }
                     }
                 } 
             }
             else
             {
-                Logger.Log("File Does Not Exist");
+                Console.WriteLine("FILE NOT FOUND");
+                Logger.Log(filepath + " Does Not Exist"); //Logging error if file not found
             }
             
             return list;
         }
 
+        //Print list of players
         public static void printList(List<string> list)
         {
             foreach (string s in list)

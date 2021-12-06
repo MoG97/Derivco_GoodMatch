@@ -12,3 +12,17 @@ C:\Users\Mohammed\source\repos\goodMatch\goodMatch\obj\Debug\netcoreapp3.1\goodM
 C:\Users\Mohammed\source\repos\goodMatch\goodMatch\obj\Debug\netcoreapp3.1\goodMatch.dll
 C:\Users\Mohammed\source\repos\goodMatch\goodMatch\obj\Debug\netcoreapp3.1\goodMatch.pdb
 C:\Users\Mohammed\source\repos\goodMatch\goodMatch\obj\Debug\netcoreapp3.1\goodMatch.genruntimeconfig.cache
+C:\Users\Mohammed\Documents\Derivco_GoodMatch\goodMatch\bin\Debug\netcoreapp3.1\goodMatch.exe
+C:\Users\Mohammed\Documents\Derivco_GoodMatch\goodMatch\bin\Debug\netcoreapp3.1\goodMatch.deps.json
+C:\Users\Mohammed\Documents\Derivco_GoodMatch\goodMatch\bin\Debug\netcoreapp3.1\goodMatch.runtimeconfig.json
+C:\Users\Mohammed\Documents\Derivco_GoodMatch\goodMatch\bin\Debug\netcoreapp3.1\goodMatch.runtimeconfig.dev.json
+C:\Users\Mohammed\Documents\Derivco_GoodMatch\goodMatch\bin\Debug\netcoreapp3.1\goodMatch.dll
+C:\Users\Mohammed\Documents\Derivco_GoodMatch\goodMatch\bin\Debug\netcoreapp3.1\goodMatch.pdb
+C:\Users\Mohammed\Documents\Derivco_GoodMatch\goodMatch\obj\Debug\netcoreapp3.1\goodMatch.csproj.AssemblyReference.cache
+C:\Users\Mohammed\Documents\Derivco_GoodMatch\goodMatch\obj\Debug\netcoreapp3.1\goodMatch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohammed\Documents\Derivco_GoodMatch\goodMatch\obj\Debug\netcoreapp3.1\goodMatch.AssemblyInfoInputs.cache
+C:\Users\Mohammed\Documents\Derivco_GoodMatch\goodMatch\obj\Debug\netcoreapp3.1\goodMatch.AssemblyInfo.cs
+C:\Users\Mohammed\Documents\Derivco_GoodMatch\goodMatch\obj\Debug\netcoreapp3.1\goodMatch.csproj.CoreCompileInputs.cache
+C:\Users\Mohammed\Documents\Derivco_GoodMatch\goodMatch\obj\Debug\netcoreapp3.1\goodMatch.dll
+C:\Users\Mohammed\Documents\Derivco_GoodMatch\goodMatch\obj\Debug\netcoreapp3.1\goodMatch.pdb
+C:\Users\Mohammed\Documents\Derivco_GoodMatch\goodMatch\obj\Debug\netcoreapp3.1\goodMatch.genruntimeconfig.cache
