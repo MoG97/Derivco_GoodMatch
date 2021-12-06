@@ -1,0 +1,83 @@
+Starting matching process at 2021-12-06 10:13:14 PM
+Completed matching process
+Execution Time: 00:00:00.0129714
+Invalid Name: 12331, m
+Invalid Name: asdff23, f
+Invalid Input: adsfasf, g ,a
+Invalid Gender: John, a
+Invalid Name: 12331, m
+Invalid Name: asdff23, f
+Invalid Input: adsfasf, g ,a
+Invalid Gender: John, a
+Starting matching process at 2021-12-06 10:13:18 PM
+Completed matching process
+Execution Time: 00:00:00.0007782
+Starting matching process at 2021-12-06 10:13:18 PM
+Completed matching process
+Execution Time: 00:00:00.0006316
+Starting matching process at 2021-12-06 10:13:18 PM
+Completed matching process
+Execution Time: 00:00:00.0004323
+Starting matching process at 2021-12-06 10:13:18 PM
+Completed matching process
+Execution Time: 00:00:00.0009541
+Starting matching process at 2021-12-06 10:13:18 PM
+Completed matching process
+Execution Time: 00:00:00.0006742
+Starting matching process at 2021-12-06 10:13:18 PM
+Completed matching process
+Execution Time: 00:00:00.0008089
+Starting matching process at 2021-12-06 10:13:18 PM
+Completed matching process
+Execution Time: 00:00:00.0007966
+Starting matching process at 2021-12-06 10:13:18 PM
+Completed matching process
+Execution Time: 00:00:00.0006797
+Starting matching process at 2021-12-06 10:13:18 PM
+Completed matching process
+Execution Time: 00:00:00.0006052
+Starting matching process at 2021-12-06 10:13:18 PM
+Completed matching process
+Execution Time: 00:00:00.0009088
+Starting matching process at 2021-12-06 10:13:18 PM
+Completed matching process
+Execution Time: 00:00:00.0006075
+Starting matching process at 2021-12-06 10:13:18 PM
+Completed matching process
+Execution Time: 00:00:00.0005870
+Starting matching process at 2021-12-06 10:13:18 PM
+Completed matching process
+Execution Time: 00:00:00.0005499
+Starting matching process at 2021-12-06 10:13:18 PM
+Completed matching process
+Execution Time: 00:00:00.0005760
+Starting matching process at 2021-12-06 10:13:18 PM
+Completed matching process
+Execution Time: 00:00:00.0005997
+Starting matching process at 2021-12-06 10:13:18 PM
+Completed matching process
+Execution Time: 00:00:00.0005633
+Starting matching process at 2021-12-06 10:13:18 PM
+Completed matching process
+Execution Time: 00:00:00.0005716
+Starting matching process at 2021-12-06 10:13:18 PM
+Completed matching process
+Execution Time: 00:00:00.0004788
+Starting matching process at 2021-12-06 10:13:18 PM
+Completed matching process
+Execution Time: 00:00:00.0006478
+Starting matching process at 2021-12-06 10:13:18 PM
+Completed matching process
+Execution Time: 00:00:00.0006135
+Starting matching process at 2021-12-06 10:13:18 PM
+Completed matching process
+Execution Time: 00:00:00.0005613
+Starting matching process at 2021-12-06 10:13:18 PM
+Completed matching process
+Execution Time: 00:00:00.0005720
+Starting matching process at 2021-12-06 10:13:18 PM
+Completed matching process
+Execution Time: 00:00:00.0005874
+Starting matching process at 2021-12-06 10:13:18 PM
+Completed matching process
+Execution Time: 00:00:00.0005894

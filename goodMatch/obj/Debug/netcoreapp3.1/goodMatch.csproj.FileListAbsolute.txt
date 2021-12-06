@@ -1,0 +1,14 @@
+C:\Users\Mohammed\source\repos\goodMatch\goodMatch\bin\Debug\netcoreapp3.1\goodMatch.exe
+C:\Users\Mohammed\source\repos\goodMatch\goodMatch\bin\Debug\netcoreapp3.1\goodMatch.deps.json
+C:\Users\Mohammed\source\repos\goodMatch\goodMatch\bin\Debug\netcoreapp3.1\goodMatch.runtimeconfig.json
+C:\Users\Mohammed\source\repos\goodMatch\goodMatch\bin\Debug\netcoreapp3.1\goodMatch.runtimeconfig.dev.json
+C:\Users\Mohammed\source\repos\goodMatch\goodMatch\bin\Debug\netcoreapp3.1\goodMatch.dll
+C:\Users\Mohammed\source\repos\goodMatch\goodMatch\bin\Debug\netcoreapp3.1\goodMatch.pdb
+C:\Users\Mohammed\source\repos\goodMatch\goodMatch\obj\Debug\netcoreapp3.1\goodMatch.csproj.AssemblyReference.cache
+C:\Users\Mohammed\source\repos\goodMatch\goodMatch\obj\Debug\netcoreapp3.1\goodMatch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohammed\source\repos\goodMatch\goodMatch\obj\Debug\netcoreapp3.1\goodMatch.AssemblyInfoInputs.cache
+C:\Users\Mohammed\source\repos\goodMatch\goodMatch\obj\Debug\netcoreapp3.1\goodMatch.AssemblyInfo.cs
+C:\Users\Mohammed\source\repos\goodMatch\goodMatch\obj\Debug\netcoreapp3.1\goodMatch.csproj.CoreCompileInputs.cache
+C:\Users\Mohammed\source\repos\goodMatch\goodMatch\obj\Debug\netcoreapp3.1\goodMatch.dll
+C:\Users\Mohammed\source\repos\goodMatch\goodMatch\obj\Debug\netcoreapp3.1\goodMatch.pdb
+C:\Users\Mohammed\source\repos\goodMatch\goodMatch\obj\Debug\netcoreapp3.1\goodMatch.genruntimeconfig.cache
