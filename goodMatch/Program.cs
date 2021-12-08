@@ -25,7 +25,7 @@ namespace goodMatch
 
             //Get CSV file path
             Console.WriteLine("Please enter file path:");
-            string filename = Console.ReadLine();
+            string filename = @Console.ReadLine();
 
             //Read player names from file and add to applicable lists
             List<string> playersM = Matcher.readFromCSV(filename, "m");
